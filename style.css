@@ -1,0 +1,48 @@
+body{
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    font-weight: 900;
+}
+.container{
+    margin-top: 100px;
+    width: 300px;
+    font-family: Arial, sans-serif;
+    padding: 50px;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 20px;
+    background: linear-gradient(180deg, rgb(191, 240, 76), rgb(0, 191, 255));
+}
+.title{
+    font-size: 30px;
+    padding: 10px;
+    font-family: Arial, sans-serif;
+    font-weight: 900;
+}
+.search{
+    background: white ;
+    
+    border: 0;
+    font-size: 15px;
+    padding: 10px;
+    font-family: Arial, sans-serif;
+    font-weight: 700;
+    border-radius: 10px;
+}
+.submit{
+    background: rgb(255, 85, 0);
+    color: white;
+    border: 0;
+    font-size: 15px;
+    padding: 10px;
+    cursor: pointer;
+    font-family: Arial, sans-serif;
+    font-weight: 700;
+    border-radius: 10px;
+}
+.submit:hover{
+    background:rgb(200, 85, 0);
+}
